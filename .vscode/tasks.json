@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run C.I.H.R.M. (PHP)",
+			"type": "process",
+			"command": "C:\\xampp\\php\\php.exe",
+			"args": [
+				"-S",
+				"127.0.0.1:3000",
+				"-t",
+				"."
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated",
+				"clear": false
+			}
+		},
+		{
+			"label": "Deploy CIHRM to InfinityFree",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"C:\\Users\\Dwyth Salmorin\\.copilot\\session-state\\6ea8004d-66e9-428f-845a-3baf74ec63cf\\files\\deploy_cihrm_infinityfree.py",
+				"D:\\CIHRM_Project_Part1\\cihrm"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

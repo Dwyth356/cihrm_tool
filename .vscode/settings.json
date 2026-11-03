@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "CIHRM",
+            "database": "cihrm_db",
+            "username": "root"
+        }
+    ],
+    "python.terminal.useEnvFile": true
+}

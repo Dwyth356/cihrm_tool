@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "^(?:\.env(?:\..*)?|seed\.php|test-db\.php)$">
+    Require all denied
+</FilesMatch>

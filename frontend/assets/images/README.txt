@@ -1,0 +1,1 @@
+Place your official Northwestern University logo here as school-logo.png. It will appear in the top logo badge on the sign-in screen and at the top of the sidebar. The project intentionally does not invent the official logo.

@@ -1,0 +1,28 @@
+/* Shared color and shadow variables; theme.css overrides these for dark mode. */
+:root {
+  --maroon: #800000;
+  --deep: #4b0000;
+  --red: #a52a2a;
+  --gold: #d4af37;
+  --ink: #252525;
+  --muted: #85818a;
+  --paper: #f5f5f7;
+  --white: #fff;
+  --line: #ece9e9;
+  --shadow: 0 12px 35px #32101012;
+}
+
+/* Dark-theme values are centralized here so components can keep using the same tokens. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --maroon: #b24b56;
+  --deep: #f6e8e8;
+  --red: #e6969e;
+  --gold: #e5c76a;
+  --ink: #eee9e9;
+  --muted: #b5aaad;
+  --paper: #171416;
+  --white: #211d20;
+  --line: #3c3438;
+  --shadow: 0 12px 35px #0005;
+}
